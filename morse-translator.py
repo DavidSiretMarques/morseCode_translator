@@ -3,11 +3,6 @@
     which has the values for each symbol in a comma separated manner
     special characters not supported: #%\ ºª ñç¨{}[]¨
 """
-
-import pygame.mixer
-from playsound import playsound
-from time import sleep, time
-
 with open('D:\MEGA\Python\Proyectos-varios-python\morse-translator\morse-code.txt') as f:
     morsecode = f.readlines()
 
